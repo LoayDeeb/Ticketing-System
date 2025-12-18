@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Contact } from 'lucide-react';
 import { motion } from 'framer-motion';
