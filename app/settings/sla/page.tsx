@@ -135,14 +135,9 @@ export default function SLAPoliciesPage() {
                       {policy.priority}
                     </span>
                     <h4 className="text-base font-semibold text-slate-800">{policy.name}</h4>
-                    {policy.status === 'Inactive' && (
-                      <span className="px-2 py-0.5 bg-slate-100 text-slate-500 text-[10px] uppercase font-bold tracking-wide rounded">Inactive</span>
-                    )}
-                    {policy.olaEnabled && (
-                      <span className="px-2 py-0.5 bg-indigo-50 text-indigo-600 border border-indigo-100 text-[10px] uppercase font-bold tracking-wide rounded flex items-center gap-1">
-                        OLA Active
-                      </span>
-                    )}
+                    <span className="px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] uppercase font-bold tracking-wide rounded border border-emerald-100">
+                      Active
+                    </span>
                   </div>
                   
                   {/* Removed conditions tags as requested */}
