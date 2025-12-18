@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from 'react';
 import { Pause, Play, Ticket, Info, CheckCircle2, Clock } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';

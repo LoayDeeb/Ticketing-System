@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import { User, MessageCircle, Tag, MoreHorizontal, Mail, Phone } from 'lucide-react';
 import { motion } from 'framer-motion';

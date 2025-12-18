@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from 'react';
 import { Paperclip, Send, Clock, Shield, Upload, Info } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
