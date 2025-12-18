@@ -16,7 +16,7 @@ export default function TicketsOverviewPage() {
         ]}
       />
 
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1700px] mx-auto px-4 sm:px-6">
         {/* 2. Main Tickets Table */}
         <TicketsTable />
       </div>

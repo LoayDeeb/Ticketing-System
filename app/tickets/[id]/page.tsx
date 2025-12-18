@@ -24,7 +24,7 @@ export default function TicketDetailsPage({ params }: { params: { id: string } }
         ]}
       />
 
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
+      <div className="max-w-[1700px] mx-auto px-4 sm:px-6">
         {/* 2. Highlight / Status Bar */}
         <TicketStatusControl ticketNumber={ticketId} />
 
